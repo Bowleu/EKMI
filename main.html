@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>EKMI - магазин мебели</title>
+	<style>
+		@font-face {
+		font-family: Raleway;
+		src: url(fonts/Raleway-Regular.ttf);
+		}
+		@font-face {
+		font-family: OpenSans;
+		src: url(fonts/OpenSans-Regular.ttf);
+		}
+		@font-face {
+		font-family: Poppins;
+		src: url(fonts/Poppins-Regular.ttf);
+		}
+	</style>
+	<link rel="stylesheet" href="styles/mainStyles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="catalog/catalog.html">КАТАЛОГ</a></li>
+				<li><a href="">ИНДИВИДУАЛЬНАЯ МЕБЕЛЬ</a></li>
+				<li><a href="">КОНТАКТЫ</a></li>
+				<li><a href=""><img src="images/main/headerLogo.png" alt=""></a></li>
+				<li><a href="">О КОМПАНИИ</a></li>
+				<li class="telephone"><a href="tel:+380996384537">+38 (099)-638-45-37</a></li>
+				<li id="language"><span>RU</span><i class="arrow downArrow"></i></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article id='firstArticle'>
+			<div id='foundation'>Основано в 1993 году</div>
+			<div id='mainPartArticle1'>
+				<div class='leftSide'>
+					<div id="textNearSlider"><span class='orangeLatter'>Л</span>УЧШАЯ ЖИЗНЬ, СОЗДАННАЯ ДЛЯ ВАС!</div>
+					<a class='toCatalog' href="catalog/catalog.html">ПЕРЕЙТИ В КАТАЛОГ</a>
+				</div>
+				<div class='slider'>
+					<img src="images/main/slider1/page1.png" alt="">
+					<ul id='sliderBottons'>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<div class='whiteSpace'></div>
+		<article id='novelties'>
+			<div id="noveltiesHeader"><span class="orangeLatter">Н</span>ОВИНКИ</div>
+			<div class="secondSlider">
+				<i class="arrow leftArrow secondSliderArrow"></i>
+				<ul class="SliderContent">
+					<li class="SliderBlock">
+						<a href=""><img src="images/main/slider2/page1.png" alt=""></a>
+						<span class="secondSliderBlockName">ALBA</span><span class="secondSliderBlockPrice">15000 UAH</span></li>
+					<li class="SliderBlock">
+						<a href=""><img src="images/main/slider2/page2.png" alt=""></a>
+						<span class="secondSliderBlockName">MARTIN</span><span class="secondSliderBlockPrice">15000 UAH</span></li>
+					<li class="SliderBlock">
+						<a href=""><img src="images/main/slider2/page3.png" alt=""></a>
+						<span class="secondSliderBlockName">LUARA</span><span class="secondSliderBlockPrice">15000 UAH</span></li>
+				</ul>
+				<i class="arrow rightArrow secondSliderArrow"></i>
+			</div>
+			<a href="catalog/catalog.html" class='toCatalog' id='noveltiesCatalog'>ПЕРЕЙТИ В КАТАЛОГ</a>
+		</article>
+		<article id='furniture'>
+			<div class="furnitureHeader">furniture</div>
+			<div class="furnitureContent">
+				<p><span class="orangeLatter">И</span>ндивидуальная мебель</p>
+				<p>Полный цикл производства.</p>
+				<p>Качество мягкой мебели начинается задолго до начала ее производства.</p>
+				<a href="catalog/catalog.html" class="toCatalog" id='individualFurniture'>ИНДИВИДУАЛЬНАЯ МЕБЕЛЬ</a>
+			</div>
+		</article>
+		<article id='lastPublications'>
+			<div class="lastPublicationsHeader">
+				<span class="orangeLatter">П</span>оследние публикации
+			</div>
+			<div class="secondSlider">
+				<i class="arrow leftArrow secondSliderArrow"></i>
+				<ul class="SliderContent">
+					<li class="SliderBlock thirdSliderBlock">
+						<a href=""><img src="images/main/slider3/page1.png" alt=""></a>
+						<span class="secondSliderBlockName">MARTIN</span></li>
+					<li class="SliderBlock thirdSliderBlock">
+						<a href=""><img src="images/main/slider3/page2.png" alt=""></a>
+						<span class="secondSliderBlockName">ALBA</span></li>
+					<li class="SliderBlock thirdSliderBlock">
+						<a href=""><img src="images/main/slider3/page3.png" alt=""></a>
+						<span class="secondSliderBlockName">TOSCANA</span></li>
+					<li class="SliderBlock thirdSliderBlock">
+						<a href=""><img src="images/main/slider3/page4.png" alt=""></a>
+						<span class="secondSliderBlockName">LEONARDO</span></li>
+				</ul>
+				<i class="arrow rightArrow secondSliderArrow"></i>
+			</div>
+		</article>
+		<article id='callForm'>
+			<img src="images/main/backgrounds/20000_Post.png" alt="">
+			<form action="">
+				<p class="fillTheForm">Заполните форму</p>
+				<p class="anyQ">ОСТАЛИСЬ ВОПРОСЫ?</p>
+				<input type="text" id='yourName' required value="Ваше имя*"><br>
+				<input type="tel" id='phoneNumber' required value="Ваш номер телефона*"><br>
+				<input type="text" id='country' value="Страна"><br>
+				<input type="text" id='comment' value="Комментарий"><br>
+				<input type="checkbox" id='confirm'>
+				<span id='confirmInfo'>Подтверждая заказ, я принимаю условия пользовательского соглашения</span><br>
+				<input type="submit" value="ЗАПРОСИТЬ ЗВОНОК">
+			</form>
+		</article>
+		<article id='info'>
+				<div class="infoBlock">
+					<div class="number">1</div>
+					<div class="infoBlockText">
+						Осуществляемые компанией «Экми-Мебель» постоянные инвестиции в сертификацию своей продукции, убедительно подтверждают лидерство компании на украинском рынке высококачественной мягкой мебели.
+					</div>
+				</div>
+				<div class="infoBlock">
+					<div class="number">2</div>
+					<div class="infoBlockText">
+						Фабрика «Экми-мебель» сертифицирована по системе менеджмента качества ISO 9001:2000 на соответствие международным стандартам, представительством «Бюро Веритас» в Украине.
+					</div>
+				</div>
+				<div class="infoBlock">
+					<div class="number">3</div>
+					<div class="infoBlockText">
+						Компания «Экми-Мебель» первой из украинских производителей мягкой мебели обеспечила свою мебель полноценной  гарантией и первой обоснованно заявила о лучшем качестве производимой мебели.
+					</div>
+				</div>
+		</article>
+	</main>
+	<div class="companyName">
+			ekmi
+	</div>
+	<footer>
+		<img src="images/main/footerLogo.png" alt="">
+		<ul class='footerUl'>
+			<li><a href="catalog/catalog.html">Каталог</a></li>
+			<li><a href="">О компании</a></li>
+			<li><a href="">Индивидуальная мебель</a></li>
+			<li><a href="">Партнерам</a></li>
+			<li><a href="">Дизайнерам</a></li>
+		</ul>
+		<ul class='footerUl'>
+			<li><a href="">2D. 3D модели</a></li>
+			<li><a href="">Шоу-Румы</a></li>
+			<li><a href="">Дилерам</a></li>
+			<li><a href="">Контакты</a></li>
+			<li><a href="">Конфигуратор</a></li>
+		</ul>
+		<div class="contacts">
+			<a href=""><img src="images/main/instagram.png" alt=""></a>
+			<a href=""><img src="images/main/facebook.png" alt=""></a>
+			<div class="tel telephone"><a href="tel:+380996384537">+38 (099)-638-45-37</a></div>
+		</div>
+		<div class="author">&#169; 2022, Гермаш Арсений, СПБГЭТУ "ЛЭТИ"</div>
+	</footer>
+</body>
+</html>
